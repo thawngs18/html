@@ -1,0 +1,37 @@
+[
+    {
+        "raw": "hello",
+        "clean": "hello",
+        "time": "0.45051",
+        "mode": "flexible",
+        "timestamp": "2025-10-10 07:18:01"
+    },
+    {
+        "raw": "",
+        "clean": "",
+        "time": "0.38694",
+        "mode": "flexible",
+        "timestamp": "2025-10-10 07:17:49"
+    },
+    {
+        "raw": "<script>alert('Stored-XSS-Demo!');<\/script><b>Test<\/b>\r\nHello <img src=x onerror=alert('1')> World\r\n<a href='javascript:alert(2)'>Click me<\/a>\r\n<p style='color: blue; text-align: center;'>N\u1ed9i dung an to\u00e0n & format.<\/p>",
+        "clean": "<b>Test<\/b>\r\nHello  World\r\n<a>Click me<\/a>\r\n<p>N\u1ed9i dung an to\u00e0n &amp; format.<\/p>",
+        "time": "0.83852",
+        "mode": "secure",
+        "timestamp": "2025-10-10 07:16:46"
+    },
+    {
+        "raw": "<a href='javascript:alert(2)'>Click me<\/a>",
+        "clean": "<a>Click me<\/a>",
+        "time": "0.72939",
+        "mode": "secure",
+        "timestamp": "2025-10-10 07:16:08"
+    },
+    {
+        "raw": "<p style='position: fixed; top: 0; left: 0; background: url(https:\/\/malicious.com);'>Phishing Test<\/p>",
+        "clean": "<p>Phishing Test<\/p>",
+        "time": "0.49972",
+        "mode": "secure",
+        "timestamp": "2025-10-10 07:15:51"
+    }
+]
