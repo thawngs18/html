@@ -20,7 +20,6 @@
             <!-- Card: HTML Purifier Demo -->
             <a href="index.php" class="group block rounded-2xl border border-gray-200 bg-white p-6 shadow-sm transition hover:border-blue-400 hover:shadow-md">
                 <h2 class="text-xl font-semibold text-gray-800 group-hover:text-blue-700">Demo HTML Purifier - Ngăn chặn XSS</h2>
-                <p class="text-gray-600 mt-2 text-sm">Chương 3: KẾT QUẢ THỰC NGHIỆM. So sánh khu vực dễ tổn thương và đã được bảo vệ, kèm thời gian xử lý.</p>
                 <div class="mt-4">
                     <span class="inline-flex items-center rounded-lg bg-blue-600 px-4 py-2 text-sm font-medium text-white transition group-hover:bg-blue-700">Mở</span>
                 </div>
@@ -29,7 +28,6 @@
             <!-- Card: Single File Comment App -->
             <a href="single_file_comment_app.php" class="group block rounded-2xl border border-gray-200 bg-white p-6 shadow-sm transition hover:border-emerald-400 hover:shadow-md">
                 <h2 class="text-xl font-semibold text-gray-800 group-hover:text-emerald-700">Ứng dụng Bình luận (Single File)</h2>
-                <p class="text-gray-600 mt-2 text-sm">Ứng dụng PHP một file đơn giản để đăng và hiển thị bình luận (JSON).</p>
                 <div class="mt-4">
                     <span class="inline-flex items-center rounded-lg bg-emerald-600 px-4 py-2 text-sm font-medium text-white transition group-hover:bg-emerald-700">Mở</span>
                 </div>
